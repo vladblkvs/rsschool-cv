@@ -5,10 +5,11 @@
 ---
 
 ## Student
-Vladislav Beliakovskiy (@vladblkvs)
+Vladislav Beliakovskiy ([@vladblkvs](https://github.com/vladblkvs))
 
 ## Contacts
 Telegram: [@FairyManul](https://t.me/FairyManul)
+
 E-mail: [vladblkvs@gmail.com](mailto:vladblkvs@gmail.com)
 
 ## About me
@@ -38,6 +39,6 @@ Studying with **R S School** seems to be very attractive to me as it could give 
 ## Works
 Some of my works:
 
-* __Sedona__: [GitHub](https://github.com/vladblkvs/19362-sedona-16), [Demo](https://vladblkvs.github.io/projects/sedona).`HTML5`, `CSS3`, `Adaptive`, `Google Maps API`
+* __Sedona__: [GitHub](https://github.com/vladblkvs/19362-sedona-16), [Demo](https://vladblkvs.github.io/projects/sedona). `HTML5`, `CSS3`, `Adaptive`, `Google Maps API`
 * __Kekstagram__: [GitHub](https://github.com/vladblkvs/19362-kekstagram-17), [Demo](https://vladblkvs.github.io/projects/kekstagram). `JS`, `Ajax`
 * __Event Feed__: [GitHub](https://github.com/vladblkvs/EventFeed), [Demo](https://vladblkvs.github.io/projects/event-feed). `HTML5`, `CSS3`, `Adaptive`, `JS`, `Ajax`, `Google Maps API`
