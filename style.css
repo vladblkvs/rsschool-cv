@@ -1,4 +1,3 @@
-/* Scafolding */
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -29,7 +28,6 @@ button {
   cursor: pointer;
 }
 
-/* Main Style */
 .container {
   width: 1024px;
   max-width: 100%;
