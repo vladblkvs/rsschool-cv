@@ -3,24 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>HTML, CSS & Git Basics</title>
 </head>
 <body>
   <header class="page-header">
     <div class="page-header__inner container">
-      <a class="page-header__logo-link" href="https://github.com/vladblkvs">
-        <img class="page-header__logo" src="https://avatars0.githubusercontent.com/u/1449550?s=60&v=4" width="30" height="30" alt="User avatar">
+      <a class="page-header__logo-link page-header__logo-link--user" href="https://github.com/vladblkvs">
+        <img class="page-header__logo page-header__logo--user-avatar" src="img/avatar@1x.png" srcset="img/avatar@2x.png 2x" width="30" height="30" alt="User avatar">
         <span class="page-header__title">@vladblkvs</span>
       </a>
-      <a class="page-header__logo-link">
-        <img class="page-header__logo" src="https://app.rs.school/static/images/logo-rsschool3.png" width="83" height="30" alt="RS School logo">
+      <a class="page-header__logo-link" href="https://rs.school/">
+        <img class="page-header__logo" src="img/logo-rsschool3@1x.png" srcset="img/logo-rsschool3@2x.png 2x" width="84" height="30" alt="RS School logo">
       </a>
     </div>
   </header>
 
   <main class="page-main">
-    <div class="page-header__inner container">
-
+    <div class="page-main__inner container">
+      <header class="page-main__header">
+        <h1 class="page-main__title">The Rolling Scopes School</h1>
+        <p class="page-main__addition">2020-Q3</p>
+      </header>
+      <div class="page-main__content content">
+        <h2 class="content__title">Student</h2>
+        <p class="content__txt">Vladislav Beliakovskiy (<a class="link" href="https://github.com/vladblkvs">@vladblkvs</a>)</p>
+        <picture class="content__photo">
+          <source type="image/webp" srcset="img/photo@1x.webp 1x, img/photo@2x.webp 2x">
+          <img src="img/photo@1x.jpg" srcset="img/photo@2x.jpg 2x" width="280" height="280" alt="My photo">
+        </picture>
+        <h2 class="content__title">Contacts</h2>
+        <p class="content__txt">Telegram: <a class="link" href="https://t.me/FairyManul">@FairyManul</a></p>
+        <p class="content__txt">E-mail: <a class="link" href="mailto:vladblkvs@gmail.com">vladblkvs@gmail.com</a></p>
+        <h2 class="content__title">About me</h2>
+        <p class="content__txt">
+          I am extremely interested in Front-end. It gives you the opportunity to create amazing things for people. Front-end is like a playground where you can realize your creative impulses.
+        </p>
+        <p class="content__txt">
+          I have studied intensively with HTML Academy: completed HTML and CSS course level 1, HTML and CSS course level 2 and JavaScript level 1 during which I learned adaptive html-coding according BEM methodology, less/sass, JavaScript basics, Gulp and Git. I am also a little familiar with Bootstrap and jQuery. Moreover, I am very much ready to learn new things and technologies that might be needed for productive work.
+        </p>
+        <p class="content__txt">
+          Studying with <strong>R S School</strong> seems to be very attractive to me as it could give me an opportunity to improve my skills significantly.
+        </p>
+        <h2 class="content__title">My skills (summary)</h2>
+        <ul class="content__list">
+          <li class="content__item">HTML5
+            <ul class="content__sublist">
+              <li class="content__item">BEM</li>
+            </ul>
+          </li>
+          <li class="content__item">CSS3
+            <ul class="content__sublist">
+              <li class="content__item">Adaptive layout</li>
+              <li class="content__item">LESS</li>
+              <li class="content__item">SASS</li>
+            </ul>
+          </li>
+          <li class="content__item">JS
+            <ul class="content__sublist">
+              <li class="content__item">DOM manipulation</li>
+              <li class="content__item">AJAX</li>
+              <li class="content__item">Google Maps API</li>
+            </ul>
+          </li>
+          <li class="content__item">Git</li>
+          <li class="content__item">Gulp</li>
+          <li class="content__item">Figma</li>
+          <li class="content__item">Adobe Photoshop</li>
+          <li class="content__item">Adobe Illustrator</li>
+        </ul>
+        <h2 class="content__title">Works</h2>
+        <p class="content__text">Some of my works:</p>
+        <ul class="content__list">
+          <li class="content__item">
+            <strong>Sedona</strong>: <a class="link" href="https://github.com/vladblkvs/19362-sedona-16">GitHub</a>,
+            <a class="link" href="https://vladblkvs.github.io/projects/sedona">Demo</a>.
+            <span class="content_highlighter">HTML5</span>,
+            <span class="content_highlighter">CSS3</span>,
+            <span class="content_highlighter">Adaptive</span>,
+            <span class="content_highlighter">Google Maps API</span>
+          </li>
+          <li class="content__item">
+            <strong>Kekstagram</strong>: <a class="link" href="https://github.com/vladblkvs/19362-kekstagram-17">GitHub</a>,
+            <a class="link" href="https://vladblkvs.github.io/projects/kekstagram">Demo</a>.
+            <span class="content_highlighter">JS</span>,
+            <span class="content_highlighter">Ajax</span>
+          </li>
+          <li class="content__item">
+            <strong>Event Feed</strong>: <a class="link" href="https://github.com/vladblkvs/EventFeed">GitHub</a>,
+            <a class="link" href="https://vladblkvs.github.io/projects/event-feed">Demo</a>.
+            <span class="content_highlighter">HTML5</span>, <span class="content_highlighter">CSS3</span>,
+            <span class="content_highlighter">Adaptive</span>, <span class="content_highlighter">JS</span>,
+            <span class="content_highlighter">Ajax</span>,
+            <span class="content_highlighter">Google Maps API</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </main>
 </body>
